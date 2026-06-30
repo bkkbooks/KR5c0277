@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0277/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0277/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清金書玉字上經
+  date: '2015-08-29 00:55:22.276500'
+  source:
+    repository: kanripo
+    path: KR5c0277
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0277_000-ZTDZ.yaml, hash: 'sha256:4b426deaa2f7d791acea0607e84328165bb1cb8f1e2bc4b996ac2a64dc9dda05'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0277_000-ZTDZ.markers.yaml, hash: 'sha256:d32f980a0828f69b6b9adf46af24e4f13a8abd0e2d78ca2ff034a866dbb2a5d5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0277_SJB_000-180743c
+    span:
+    - body
+    - 0
+    - 2352
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:87787384b3c3383b9b68c363fb5deaccc490a1acc8957280bc6d23880e8be701
